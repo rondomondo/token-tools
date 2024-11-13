@@ -1,6 +1,6 @@
  # Project Configuration
 
-PROJECT := jwt_sig_check
+PROJECT := jwt_verify
 VERSION := 3.12
 SHELL := /bin/bash
 VENV := .venv
@@ -11,7 +11,7 @@ PIP := $(shell which pip3)
 GCC := $(shell which gcc)
 PYCODESTYLE := $(shell which pycodestyle)
 REQUIREMENTS := requirements.txt
-MAIN_SCRIPT := jwt_sig_check.py 
+MAIN_SCRIPT := jwt_verify.py
 LINE_LENGTH := 119
 
 

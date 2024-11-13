@@ -1,0 +1,10 @@
+requests
+pyjwt
+pycryptodome
+colorama
+cryptography
+flake8
+autopep8
+black
+pytest
+pytest-asyncio
